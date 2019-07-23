@@ -4,6 +4,7 @@
 
 Domoticz crashes if system time is changed (NTP synchronization after a long network loss or during boot).
 - [Issue #3371](https://github.com/domoticz/domoticz/issues/3371).
+- [Booting from LUN is crashing domoticz](https://www.domoticz.com/forum/viewtopic.php?f=6&t=28738l)
 
 A workaround is to add a systemd drop-in file to restart domoticz service in case of crash.
 
