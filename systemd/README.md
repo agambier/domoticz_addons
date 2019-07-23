@@ -16,4 +16,4 @@ Drop-In: /etc/systemd/system/domoticz.service.d
            └─restart.conf
 ```
 
-Now if domoticz crashes for any reason it will get restarted after 5 seconds but it is correctly stopped it won't get restarted.
+Now if domoticz crashes for any reason it will get restarted after 5 seconds but if it's correctly stopped it won't get restarted.
