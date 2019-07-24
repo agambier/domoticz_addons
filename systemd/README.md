@@ -9,7 +9,7 @@ Domoticz crashes if system time is changed (NTP synchronization after a long net
 A workaround is to add a systemd drop-in file to restart domoticz service in case of crash.
 
 to Install it:
-1. create `domoticz.service.d` with `sudo mkdir /etc/systemd/system/domoticz.service.d/`
+1. create `domoticz.service.d` with `sudo mkdir /etc/systemd/system/domoticz.service.d`
 2. copy `./domoticz.service.d/restart.conf` to `/etc/systemd/system/domoticz.service.d/`
 3. reload systemd daemon with `sudo systemctl daemon-reload`
 4. check drop-in is loaded with `sudo systemctl status domoticz`. The two lines below should be present.
